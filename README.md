@@ -1,1 +1,1 @@
-bash -c "$(curl -fsSL https://github.com/Logaritmisk/vnodectrl/raw/2.x-dev/say-fun.sh)"
+say < <(curl -fsSL https://github.com/Logaritmisk/say-fun/raw/master/fun.lyric)
