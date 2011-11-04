@@ -1,3 +1,3 @@
 # Fun fun fun
 
-    say < <(curl -fsSL https://github.com/Logaritmisk/say-fun/raw/master/fun.lyric)
+    bash -c "$(curl -fsSL https://github.com/Logaritmisk/say-fun/raw/master/say-fun)"

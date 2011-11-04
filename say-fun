@@ -1,0 +1,13 @@
+#!/bin/bash
+
+
+function say_it() {
+  if which -s say; then
+    say $1
+  elif which -s espeak; then
+    espeak $1
+  fi
+}
+
+
+say_it < <(curl -fsSL https://github.com/Logaritmisk/say-fun/raw/master/fun.lyric)
